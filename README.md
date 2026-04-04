@@ -20,8 +20,6 @@
 - Mohit Patil  
 - Atharva Suryawanshi  
 
-**Date of Submission:** April 2026
-
 ---
 
 ## Research Paper Reference
@@ -30,8 +28,11 @@
 **Authors:** Emine Cengil, Ahmet Cinar  
 **Year:** 2019  
 
-The paper demonstrates the use of pretrained CNN models such as VGG16, ResNet and AlexNet for flower classification using transfer learning.
+**Citation (IEEE format):**
 
+E. Cengil and A. Cinar, "Multiple Classification of Flower Images Using Transfer Learning," *2019 International Artificial Intelligence and Data Processing Symposium (IDAP)*, Malatya, Turkey, 2019, pp. 1–5.
+
+The paper demonstrates the use of pretrained CNN models such as VGG16, ResNet and AlexNet for flower classification using transfer learning.
 ---
 
 ## Objective
