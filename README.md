@@ -33,6 +33,7 @@
 E. Cengil and A. Cinar, "Multiple Classification of Flower Images Using Transfer Learning," *2019 International Artificial Intelligence and Data Processing Symposium (IDAP)*, Malatya, Turkey, 2019, pp. 1–5.
 
 The paper demonstrates the use of pretrained CNN models such as VGG16, ResNet and AlexNet for flower classification using transfer learning.
+
 ---
 
 ## Objective
