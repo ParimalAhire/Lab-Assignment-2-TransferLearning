@@ -138,3 +138,8 @@ Transfer learning using the VGG16 pretrained model achieved good classification 
 - NumPy
 - Matplotlib
 - Scikit-learn
+
+## Note
+
+The dataset was stored in Google Drive during implementation.  
+For reproduction, download the dataset from the Kaggle link and update the dataset path accordingly.
