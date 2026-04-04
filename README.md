@@ -123,7 +123,7 @@ The research paper reports approximately 93% accuracy using VGG16, while the imp
 
 ## Conclusion
 
-Transfer learning using the VGG16 pretrained model achieved good classification accuracy with limited training data. This demonstrates that pretrained CNN models can significantly reduce training effort while maintaining good performance.
+Transfer learning using the VGG16 pretrained model achieved good classification accuracy with limited training data. The model obtained about 97% training accuracy and 89% validation accuracy, showing that pretrained CNN models can significantly reduce training effort while maintaining strong performance.
 
 ---
 
