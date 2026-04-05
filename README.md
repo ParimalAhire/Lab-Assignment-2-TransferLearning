@@ -2,35 +2,37 @@
 
 ## Course Information
 
-**Course Name:** Deep Learning  
-**Lab Assignment:** Lab Assignment 2  
-**Topic:** Research Paper Implementation with Pre-trained Model  
+Course Name: Deep Learning  
+Lab Assignment: Lab Assignment 2  
+Topic: Research Paper Implementation with Pre-trained Model  
 
 ---
 
 ## Student Details
 
-**Student Name:** Parimal Ahire  
-**PRN:** 202301040067  
+Student Name: Parimal Ahire  
+PRN: 202301040067  
 
-## Group Members
+## Group Details
 
-- Parimal Ahire  
-- Rajveersinh Kher  
-- Mohit Patil  
-- Atharva Suryawanshi  
+| Student Name | PRN |
+|--------------|-------------------|
+| Parimal Ahire | 202301040067 |
+| Atharva Suryawanshi | 202301040283 |
+| Rajveersinh Kher | 202301040233 |
+| Mohit Patil | 202301040272 |
 
 ---
 
 ## Research Paper Reference
 
-**Title:** Multiple Classification of Flower Images Using Transfer Learning  
-**Authors:** Emine Cengil, Ahmet Cinar  
-**Year:** 2019  
+Title: Multiple Classification of Flower Images Using Transfer Learning  
+Authors: Emine Cengil, Ahmet Cinar  
+Year: 2019  
 
-**Citation (IEEE format):**
+Citation (IEEE format):
 
-E. Cengil and A. Cinar, "Multiple Classification of Flower Images Using Transfer Learning," *2019 International Artificial Intelligence and Data Processing Symposium (IDAP)*, Malatya, Turkey, 2019, pp. 1–5.
+E. Cengil and A. Cinar, "Multiple Classification of Flower Images Using Transfer Learning," 2019 International Artificial Intelligence and Data Processing Symposium (IDAP), Malatya, Turkey, 2019, pp. 1–5.
 
 The paper demonstrates the use of pretrained CNN models such as VGG16, ResNet and AlexNet for flower classification using transfer learning.
 
@@ -39,6 +41,7 @@ The paper demonstrates the use of pretrained CNN models such as VGG16, ResNet an
 ## Objective
 
 The objective of this assignment is to:
+
 - Study a research paper using pretrained CNN models
 - Implement transfer learning using VGG16
 - Fine-tune classification layers
@@ -48,12 +51,13 @@ The objective of this assignment is to:
 
 ## Dataset Used
 
-**Dataset:** Flowers Recognition Dataset  
+Dataset: Flowers Recognition Dataset  
 
-**Source:**
+Source:  
 https://www.kaggle.com/datasets/alxmamaev/flowers-recognition
 
-**Classes:**
+Classes:
+
 - Daisy
 - Dandelion
 - Rose
@@ -80,10 +84,11 @@ The following steps were implemented:
 
 ## Model Details
 
-**Pretrained Model:** VGG16  
-**Framework:** TensorFlow / Keras  
+Pretrained Model: VGG16  
+Framework: TensorFlow / Keras  
 
 Transfer learning approach:
+
 - ImageNet pretrained weights used
 - Convolution base frozen
 - Custom dense layers added
@@ -105,15 +110,26 @@ Transfer learning approach:
 
 ## Results
 
-**Training Accuracy:** 96.93%  
-**Validation Accuracy:** 89.11%
+Training Accuracy: 96.93%  
+Validation Accuracy: 89.11%
 
 Performance metrics:
+
 - Precision: 0.89
 - Recall: 0.89
 - F1 Score: 0.89
 
-The confusion matrix shows that most predictions are correct with minor misclassification between similar flower classes.
+### Model Accuracy Graph
+
+This graph shows training and validation accuracy across epochs.
+
+![Model Accuracy](ModelAccuracy.png)
+
+### Confusion Matrix
+
+The confusion matrix shows that most predictions are correct with minor misclassification between visually similar flower classes.
+
+![Confusion Matrix](ConfusionMatrix.png)
 
 ---
 
@@ -139,7 +155,16 @@ Transfer learning using the VGG16 pretrained model achieved good classification 
 - Matplotlib
 - Scikit-learn
 
+---
+
 ## Note
 
 The dataset was stored in Google Drive during implementation.  
-For reproduction, download the dataset from the Kaggle link and update the dataset path accordingly.
+For reproduction:
+
+1 Download the dataset from the Kaggle link  
+2 Extract the dataset  
+3 Update dataset path in the notebook  
+4 Run the notebook cells sequentially  
+
+---
